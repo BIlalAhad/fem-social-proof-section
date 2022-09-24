@@ -1,0 +1,54 @@
+:root {
+  --clr-purple: #511F50;
+  --clr-light-purple: #fceefb;
+  --clr-verified-purple: #ff94f8;
+}
+
+body {
+  min-height: 100vh;
+  display: grid;
+  align-items: center;
+}
+
+h1 {
+  color: var(--clr-purple);
+}
+
+.stars {
+  background-color: var(--clr-light-purple);
+  width: 100%;
+}
+
+.testimonials {
+  background-color: var(--clr-purple);
+}
+
+.verified {
+  color: var(--clr-verified-purple);
+}
+
+.testimonial-image {
+  max-width: 50px;
+}
+
+@media (min-width: 768px) {
+  .stars {
+    width: 400px;
+  }
+
+  .stars-two {
+    transform: translateX(50px);
+  }
+
+  .stars-three {
+    transform: translateX(100px);
+  }
+
+  .testimonial-two {
+    transform: translateY(25px);
+  }
+
+  .testimonial-three {
+    transform: translateY(50px);
+  }
+}
